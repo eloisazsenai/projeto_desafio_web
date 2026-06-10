@@ -12,7 +12,7 @@ h2{
     color: rgb(79, 8, 126);
 }
 
-h1, h3{
+h1, h2, h3{
     text-align: center;
 }
 
@@ -23,15 +23,15 @@ label, input{
 }
 
 #div-form{
-    background-color: rgb(217, 166, 233);
+    background-color: rgb(206, 175, 235);
     width: 400px;
-    min-height: 250px;
+    min-height: 350px;
     margin: 20px auto;
     padding: 20px;
 }
 
-#div_dados{
-    background-color: rgb(201, 178, 219);
+#div-dados{
+    background-color: rgb(255, 255, 255);
     width: 100%;
     height: 100px;
     margin: 20px 0px;
