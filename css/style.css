@@ -16,6 +16,10 @@ h1, h2, h3{
     text-align: center;
 }
 
+h3{
+    color: rgb(79, 8, 126);
+}
+
 label, input{
     display: block;
     margin: 10px 0px;
