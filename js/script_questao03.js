@@ -13,7 +13,7 @@ formDados.addEventListener('submit', (evt)=>{
     let preco = parseFloat(objformDados.get('precoCombustivel'))
 
 
-    let gastoCombustivel = distancia * consumoMedio
+    let gastoCombustivel = distancia / consumoMedio
     let valorCombustivel = preco * gastoCombustivel
     
     divResultado.innerHTML = `A QUANTIDADE DE COMBUSTÍVEL NECESSÁRIA É ${gastoCombustivel.toFixed(1).replace('.',',')}L E O GASTO TOTAL É DE R$${valorCombustivel.toFixed(2).replace('.',',')}`
