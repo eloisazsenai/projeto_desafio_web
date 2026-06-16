@@ -12,7 +12,8 @@ formDados.addEventListener('submit', (evt)=>{
     let altura = parseFloat(objformDados.get('altura'))
 
     let areaTotal = largura * altura
+    let qtdTinta = areaTotal / 2
 
-    divResultado.innerHTML = `A ÁREA TOTAL É ${areaTotal.toFixed(1).replace('.',',')}m²`
+    divResultado.innerHTML = `A ÁREA TOTAL É ${areaTotal.toFixed(1).replace('.',',')}m² e q quantidade e tinta necessária é ${qtdTinta.toFixed(1).replace('.', ',')}`
     formDados.reset
 })
